@@ -20,6 +20,11 @@ Fixes and finds while using linux on a 2015 MacBook Air
    Fix: [download broadcom-sta-dkms_6.30.223.271-23_all.deb](http://kali.download/kali/pool/non-free/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-23_all.deb) and install with `sudo dpkg -i <path_to_deb>`(might need `sudo apt install -f`?)  
    Observed: `sudo dkms stats` shows broadcom-sta/6.30.223.271, 6.6.9-amd64, x86_64: installed  
 
+1. **WiFi** icon not showing correctly.  
+   Observed: Icon showing in white, so it shows up well on the panel in dark mode, but is hard to see in light mode.
+   Observed: Changing the icon size in the System Tray Plugin to something other than 22-23 changes the displayed icon.
+   Observed: Setting XFCE4 Panel Dark Mode or Icon Size changes other icon, but not the System Tray Plugin icons.
+   Fix: sorta... adjust the size of the System Tray Plugin to not be 22-23, or set auto size mode (iirc).  
    
 
 ## Finds
