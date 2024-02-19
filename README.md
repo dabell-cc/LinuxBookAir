@@ -17,7 +17,7 @@ Fixes and finds while using Kali linux on a 2015 MacBook Air
 1. **WiFi** not working.  
    - Observed: `lspci | grep -i broadcom` shows BCM4360.  
    - Observed: [https://pkg.kali.org/pkg/broadcom-sta#](https://pkg.kali.org/pkg/broadcom-sta#) no longer in the kali-Rolling repo.  
-   - Fix: [download broadcom-sta-dkms_6.30.223.271-23_all.deb](http://kali.download/kali/pool/non-free/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-23_all.deb) and install with `sudo dpkg -i <path_to_deb>`(might need `sudo apt install -f`?)  
+   - Fix: [download broadcom-sta-dkms_6.30.223.271-23_all.deb](http://kali.download/kali/pool/non-free/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-23_all.deb) and install with `sudo dpkg -i <path_to_deb>`(might need `sudo apt install -f` to attempt to fix broken dependencies).  
    - Observed: `sudo dkms stats` shows broadcom-sta/6.30.223.271, 6.6.9-amd64, x86_64: installed  
 
 1. **WiFi** icon not showing correctly.  
