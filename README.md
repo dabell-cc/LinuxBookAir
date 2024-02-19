@@ -1,5 +1,5 @@
 # LinuxBookAir
-Fixes and finds while using linux on a 2015 MacBook Air
+Fixes and finds while using Kali linux on a 2015 MacBook Air
 
 ## Fixes
 1. Keyboard **brightness keys** don't change the level (but do show the current brightness level overlay).  
