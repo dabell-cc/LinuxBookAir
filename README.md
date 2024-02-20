@@ -26,6 +26,9 @@ Fixes and finds while using Kali linux on a 2015 MacBook Air
    - Observed: Setting XFCE4 Panel Dark Mode or Icon Size changes other icon, but not the System Tray Plugin icons.
    - Fix: sorta... adjust the size of the System Tray Plugin to not be 22-23, or set auto size mode (iirc).  
    
+1. **CPU throttles and overheats** 
+   - Observed: sensors shoes exhaust fan rpm around 1198RPM.
+   - fix(maybe): macfanctld 
 
 ## Finds
 1. `ls /sys/module/hid_apple/parameters` shows some options for swapping control/command/fn/option keys.
